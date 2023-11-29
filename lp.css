@@ -1,0 +1,102 @@
+body{
+    background-image: url("pexels-james-wheeler-417074.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-form{
+    background-color: blue;
+    width: 30vw;
+    height: 90vh;
+   margin: 70px auto;
+   border-radius: 10px;
+   background: transparent;
+   backdrop-filter: blur(10px);
+   border: 1px solid white;
+}
+
+.heading{
+    color: aliceblue;
+    font: bold 40px Trebuchet MS, Helvetica, sans-serif;
+    text-align: center;
+}
+
+label{
+    padding-left: 40px;
+    color: white;
+    transform: translate(-50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.email{
+    padding-left: 40px;
+    color: white;
+    word-spacing: 220px;
+}
+
+.password{
+    padding-left: 40px;
+    color: white;
+    word-spacing: 200px;
+}
+
+#User-email, #User-password{
+    margin-left: 30px;
+    color: white;
+    margin-top: 5px;
+    background: transparent;
+    width: 80%;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+.bottom{
+   margin-top: 40px;
+   margin-left: 30px;
+}
+
+.rm{
+    color: white;
+    font-size: 15px;
+    margin-left: -45px;
+}
+
+.checkme{
+    margin-top: 5px;
+}
+
+.FP{
+    background: transparent;
+    color: white;
+    border: none;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.Log-in{
+    margin-top: 40px;
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font: bold 20px Trebuchet MS, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+p{
+    margin-left: 50px;
+    color: white;
+}
+
+.register{
+    background: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
