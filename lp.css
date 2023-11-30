@@ -6,7 +6,6 @@ body{
 }
 
 .main-form{
-    background-color: blue;
     width: 30vw;
     height: 90vh;
    margin: 70px auto;
@@ -99,4 +98,16 @@ p{
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media screen and (max-width: 576px){
+    .main-form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 972px){
+    .main-form{
+        height: 100%;
+    }
 }
